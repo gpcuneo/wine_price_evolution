@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  jupyter:
+    image: jupyterlabcustom:1.2
+    ports:
+      - 8888:8888
+    volumes:
+      - ./project:/project
